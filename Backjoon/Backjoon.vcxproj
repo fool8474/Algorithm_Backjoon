@@ -143,10 +143,13 @@
     <ClCompile Include="1011_FlyMeToTheAlphaCentauri.cpp" />
     <ClCompile Include="10250_ACM호텔.cpp" />
     <ClCompile Include="1085_직사각형에서탈출.cpp" />
+    <ClCompile Include="10870_피보나치수5.cpp" />
     <ClCompile Include="10872_팩토리얼.cpp" />
     <ClCompile Include="11047_동전0.cpp" />
+    <ClCompile Include="11729_하노이탑이동순서.cpp" />
     <ClCompile Include="1929_소수구하기.cpp" />
     <ClCompile Include="1978_소수찾기.cpp" />
+    <ClCompile Include="2447_별찍기10.cpp" />
     <ClCompile Include="2581_소수.cpp" />
     <ClCompile Include="2775_부녀회장이될테야.cpp" />
     <ClCompile Include="2920_음계.cpp" />

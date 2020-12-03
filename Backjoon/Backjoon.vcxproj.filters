@@ -66,6 +66,15 @@
     <ClCompile Include="10872_팩토리얼.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="10870_피보나치수5.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="11729_하노이탑이동순서.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="2447_별찍기10.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="header.h">
