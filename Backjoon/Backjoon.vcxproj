@@ -141,22 +141,30 @@
   <ItemGroup>
     <ClCompile Include="1002_터렛.cpp" />
     <ClCompile Include="1011_FlyMeToTheAlphaCentauri.cpp" />
+    <ClCompile Include="1018_체스판_다시_칠하기.cpp" />
     <ClCompile Include="10250_ACM호텔.cpp" />
     <ClCompile Include="1085_직사각형에서탈출.cpp" />
     <ClCompile Include="10870_피보나치수5.cpp" />
     <ClCompile Include="10872_팩토리얼.cpp" />
+    <ClCompile Include="10989_수정렬하기3.cpp" />
     <ClCompile Include="11047_동전0.cpp" />
     <ClCompile Include="11729_하노이탑이동순서.cpp" />
+    <ClCompile Include="1436_영화감독숌.cpp" />
     <ClCompile Include="1929_소수구하기.cpp" />
     <ClCompile Include="1978_소수찾기.cpp" />
+    <ClCompile Include="2231_분해합.cpp" />
     <ClCompile Include="2447_별찍기10.cpp" />
     <ClCompile Include="2581_소수.cpp" />
+    <ClCompile Include="2750_수정렬하기.cpp" />
+    <ClCompile Include="2751_수정렬하기2.cpp" />
     <ClCompile Include="2775_부녀회장이될테야.cpp" />
+    <ClCompile Include="2798_블랙잭.cpp" />
     <ClCompile Include="2920_음계.cpp" />
     <ClCompile Include="3009_네번째점.cpp" />
     <ClCompile Include="3053_택시기하학.cpp" />
     <ClCompile Include="4153_직각삼각형.cpp" />
     <ClCompile Include="4948_베르트랑공준.cpp" />
+    <ClCompile Include="7568_덩치.cpp" />
     <ClCompile Include="9020_골드바흐의 추측.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
