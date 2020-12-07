@@ -11,13 +11,18 @@ using namespace std;
 int n, m;
 vector<int> numList;
 vector<bool> visited;
+string result = "";
 
-void printNM(int pos)
+void printNM3(int pos)
 {
 	if (pos == m)
 	{
-		for (int i = 0; i < m; i++) cout << numList[i] << ' ';
-		cout << '\n';
+		
+		for (int i = 0; i < m; i++) {
+			result += (char)numList[i] + 48;
+			result += ' ';
+		}
+		result += '\n';
 		return;
 	}
 
@@ -25,23 +30,20 @@ void printNM(int pos)
 	{
 		for (int i = 0; i < n; i++)
 		{
-			if (!visited[i])
-			{
-				visited[i] = true;
-				numList[pos] = i+1;
-				printNM(pos + 1);
-				visited[i] = false;
-			}
+			numList[pos] = i + 1;
+			printNM3(pos + 1);
 		}
 	}
 }
 
-void N°úM_15649()
+void N°úM3_15650()
 {
 	ios::sync_with_stdio(false), cout.tie(0), cin.tie(0);
 	cin >> n >> m;
 	for (int i = 0; i < m; i++) numList.push_back(0);
 	for (int i = 0; i < n; i++) visited.push_back(false);
-	printNM(0);
+	printNM3(0);
+
+	cout << result;
 }
 */

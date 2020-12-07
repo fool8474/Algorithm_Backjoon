@@ -12,7 +12,7 @@ int n, m;
 vector<int> numList;
 vector<bool> visited;
 
-void printNM(int pos)
+void printNM2(int pos)
 {
 	if (pos == m)
 	{
@@ -25,23 +25,23 @@ void printNM(int pos)
 	{
 		for (int i = 0; i < n; i++)
 		{
-			if (!visited[i])
+			if (!visited[i] && (pos == 0 || (pos > 0 && numList[pos-1] < i+1)))
 			{
 				visited[i] = true;
-				numList[pos] = i+1;
-				printNM(pos + 1);
+				numList[pos] = i + 1;
+				printNM2(pos + 1);
 				visited[i] = false;
 			}
 		}
 	}
 }
 
-void N°úM_15649()
+void N°úM2_15650()
 {
 	ios::sync_with_stdio(false), cout.tie(0), cin.tie(0);
 	cin >> n >> m;
 	for (int i = 0; i < m; i++) numList.push_back(0);
 	for (int i = 0; i < n; i++) visited.push_back(false);
-	printNM(0);
+	printNM2(0);
 }
 */

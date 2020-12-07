@@ -156,11 +156,15 @@
     <ClCompile Include="1427_소트인사이드.cpp" />
     <ClCompile Include="1436_영화감독숌.cpp" />
     <ClCompile Include="15649_N과M1.cpp" />
+    <ClCompile Include="15650_N과M2.cpp" />
+    <ClCompile Include="15651_N과M3.cpp" />
+    <ClCompile Include="15652_N과M4.cpp" />
     <ClCompile Include="1929_소수구하기.cpp" />
     <ClCompile Include="1978_소수찾기.cpp" />
     <ClCompile Include="2108_통계학.cpp" />
     <ClCompile Include="2231_분해합.cpp" />
     <ClCompile Include="2447_별찍기10.cpp" />
+    <ClCompile Include="2580_스도쿠.cpp" />
     <ClCompile Include="2581_소수.cpp" />
     <ClCompile Include="2750_수정렬하기.cpp" />
     <ClCompile Include="2751_수정렬하기2.cpp" />
@@ -173,6 +177,7 @@
     <ClCompile Include="4948_베르트랑공준.cpp" />
     <ClCompile Include="7568_덩치.cpp" />
     <ClCompile Include="9020_골드바흐의 추측.cpp" />
+    <ClCompile Include="9663_N-Queen.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>

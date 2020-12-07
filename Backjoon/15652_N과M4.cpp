@@ -10,9 +10,8 @@ using namespace std;
 
 int n, m;
 vector<int> numList;
-vector<bool> visited;
 
-void printNM(int pos)
+void printNM4(int pos)
 {
 	if (pos == m)
 	{
@@ -25,23 +24,21 @@ void printNM(int pos)
 	{
 		for (int i = 0; i < n; i++)
 		{
-			if (!visited[i])
+			if (pos == 0 || (pos > 0 && numList[pos-1] <= i+1))
 			{
-				visited[i] = true;
-				numList[pos] = i+1;
-				printNM(pos + 1);
-				visited[i] = false;
+				numList[pos] = i + 1;
+				printNM4(pos + 1);
 			}
 		}
 	}
 }
 
-void N°úM_15649()
+void N°úM4_15652()
 {
 	ios::sync_with_stdio(false), cout.tie(0), cin.tie(0);
 	cin >> n >> m;
 	for (int i = 0; i < m; i++) numList.push_back(0);
-	for (int i = 0; i < n; i++) visited.push_back(false);
-	printNM(0);
+	printNM4(0);
 }
+
 */
