@@ -1,3 +1,4 @@
+/*
 #pragma once
 #include <iostream>
 #include <string>
@@ -102,3 +103,4 @@ void 스타트와링크_14889()
 
 	cout << minTeamScore << endl;
 }
+*/

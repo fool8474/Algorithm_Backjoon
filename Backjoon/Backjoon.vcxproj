@@ -140,6 +140,7 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="1002_터렛.cpp" />
+    <ClCompile Include="1003_피보나치함수.cpp" />
     <ClCompile Include="1011_FlyMeToTheAlphaCentauri.cpp" />
     <ClCompile Include="1018_체스판_다시_칠하기.cpp" />
     <ClCompile Include="10250_ACM호텔.cpp" />
@@ -149,6 +150,7 @@
     <ClCompile Include="10872_팩토리얼.cpp" />
     <ClCompile Include="10989_수정렬하기3.cpp" />
     <ClCompile Include="11047_동전0.cpp" />
+    <ClCompile Include="1149_RGB거리.cpp" />
     <ClCompile Include="11650_좌표정렬하기.cpp" />
     <ClCompile Include="11651_좌표정렬하기2.cpp" />
     <ClCompile Include="11729_하노이탑이동순서.cpp" />
@@ -161,13 +163,16 @@
     <ClCompile Include="15650_N과M2.cpp" />
     <ClCompile Include="15651_N과M3.cpp" />
     <ClCompile Include="15652_N과M4.cpp" />
+    <ClCompile Include="1904_01타일.cpp" />
     <ClCompile Include="1929_소수구하기.cpp" />
+    <ClCompile Include="1932_정수삼각형.cpp" />
     <ClCompile Include="1978_소수찾기.cpp" />
     <ClCompile Include="2108_통계학.cpp" />
     <ClCompile Include="2231_분해합.cpp" />
     <ClCompile Include="2447_별찍기10.cpp" />
     <ClCompile Include="2580_스도쿠.cpp" />
     <ClCompile Include="2581_소수.cpp" />
+    <ClCompile Include="2748_피보나치수2.cpp" />
     <ClCompile Include="2750_수정렬하기.cpp" />
     <ClCompile Include="2751_수정렬하기2.cpp" />
     <ClCompile Include="2775_부녀회장이될테야.cpp" />
@@ -179,6 +184,7 @@
     <ClCompile Include="4948_베르트랑공준.cpp" />
     <ClCompile Include="7568_덩치.cpp" />
     <ClCompile Include="9020_골드바흐의 추측.cpp" />
+    <ClCompile Include="9461_파도반수열.cpp" />
     <ClCompile Include="9663_N-Queen.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
