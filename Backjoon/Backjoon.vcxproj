@@ -92,6 +92,7 @@
     <Link>
       <SubSystem>Console</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
+      <StackReserveSize>268435456</StackReserveSize>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -144,46 +145,80 @@
     <ClCompile Include="1011_FlyMeToTheAlphaCentauri.cpp" />
     <ClCompile Include="1018_체스판_다시_칠하기.cpp" />
     <ClCompile Include="10250_ACM호텔.cpp" />
+    <ClCompile Include="1037_약수.cpp" />
+    <ClCompile Include="10757_큰수A+B.cpp" />
+    <ClCompile Include="10773_제로.cpp" />
     <ClCompile Include="10814_나이순정렬.cpp" />
+    <ClCompile Include="10828_스택.cpp" />
+    <ClCompile Include="10844_쉬운계단수.cpp" />
     <ClCompile Include="1085_직사각형에서탈출.cpp" />
     <ClCompile Include="10870_피보나치수5.cpp" />
     <ClCompile Include="10872_팩토리얼.cpp" />
     <ClCompile Include="10989_수정렬하기3.cpp" />
     <ClCompile Include="11047_동전0.cpp" />
+    <ClCompile Include="11050_이항계수1.cpp" />
+    <ClCompile Include="11051_이항계수2.cpp" />
+    <ClCompile Include="11053_가장긴증가하는부분수열.cpp" />
+    <ClCompile Include="11054_가장긴바이토닉부분수열.cpp" />
     <ClCompile Include="1149_RGB거리.cpp" />
     <ClCompile Include="11650_좌표정렬하기.cpp" />
     <ClCompile Include="11651_좌표정렬하기2.cpp" />
+    <ClCompile Include="11653_소인수분해.cpp" />
     <ClCompile Include="11729_하노이탑이동순서.cpp" />
     <ClCompile Include="1181_단어정렬.cpp" />
+    <ClCompile Include="11866_요세푸스 문제 0.cpp" />
+    <ClCompile Include="12865_평범한_배낭.cpp" />
+    <ClCompile Include="13305_주유소.cpp" />
     <ClCompile Include="1427_소트인사이드.cpp" />
     <ClCompile Include="1436_영화감독숌.cpp" />
+    <ClCompile Include="1463_1로만들기.cpp" />
     <ClCompile Include="14888_연산자끼워넣기.cpp" />
     <ClCompile Include="14889_스타트와링크.cpp" />
+    <ClCompile Include="1541_잃어버린 괄호.cpp" />
     <ClCompile Include="15649_N과M1.cpp" />
     <ClCompile Include="15650_N과M2.cpp" />
     <ClCompile Include="15651_N과M3.cpp" />
     <ClCompile Include="15652_N과M4.cpp" />
+    <ClCompile Include="17298_오큰수.cpp" />
+    <ClCompile Include="18258_큐2.cpp" />
+    <ClCompile Include="1874_스택수열.cpp" />
     <ClCompile Include="1904_01타일.cpp" />
+    <ClCompile Include="1912_연속합.cpp" />
     <ClCompile Include="1929_소수구하기.cpp" />
+    <ClCompile Include="1931_회의실 배정.cpp" />
     <ClCompile Include="1932_정수삼각형.cpp" />
+    <ClCompile Include="1934_최소공배수.cpp" />
+    <ClCompile Include="1966_프린터큐.cpp" />
     <ClCompile Include="1978_소수찾기.cpp" />
     <ClCompile Include="2108_통계학.cpp" />
+    <ClCompile Include="2156_포도주시식.cpp" />
+    <ClCompile Include="2164_카드2.cpp" />
     <ClCompile Include="2231_분해합.cpp" />
     <ClCompile Include="2447_별찍기10.cpp" />
+    <ClCompile Include="2565_전깃줄.cpp" />
+    <ClCompile Include="2579_계단오르기.cpp" />
     <ClCompile Include="2580_스도쿠.cpp" />
     <ClCompile Include="2581_소수.cpp" />
+    <ClCompile Include="2609_최대공약수와_최소공배수.cpp" />
     <ClCompile Include="2748_피보나치수2.cpp" />
     <ClCompile Include="2750_수정렬하기.cpp" />
     <ClCompile Include="2751_수정렬하기2.cpp" />
     <ClCompile Include="2775_부녀회장이될테야.cpp" />
     <ClCompile Include="2798_블랙잭.cpp" />
     <ClCompile Include="2920_음계.cpp" />
+    <ClCompile Include="2981_검문.cpp" />
     <ClCompile Include="3009_네번째점.cpp" />
+    <ClCompile Include="3036_링.cpp" />
     <ClCompile Include="3053_택시기하학.cpp" />
     <ClCompile Include="4153_직각삼각형.cpp" />
     <ClCompile Include="4948_베르트랑공준.cpp" />
+    <ClCompile Include="4949_균형잡힌세상.cpp" />
+    <ClCompile Include="5086_배수와약수.cpp" />
     <ClCompile Include="7568_덩치.cpp" />
+    <ClCompile Include="9012_괄호.cpp" />
     <ClCompile Include="9020_골드바흐의 추측.cpp" />
+    <ClCompile Include="9184_신나는 함수 실행.cpp" />
+    <ClCompile Include="9251_LCS.cpp" />
     <ClCompile Include="9461_파도반수열.cpp" />
     <ClCompile Include="9663_N-Queen.cpp" />
     <ClCompile Include="main.cpp" />
